@@ -1,0 +1,61 @@
+@import url('global.css');
+
+header{
+    height: 58px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    z-index: 50;
+    background-color:transparent;
+    backdrop-filter: blur(6px);
+    box-shadow: var(--shadow-md);
+    
+}
+
+.nexcent_logo{
+    width: 150px;
+    height: 24px;
+    cursor: pointer;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    font-weight: var(--text-medium);
+    
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.nav-links > li >a{
+    color: var(--text-color-main);
+     transition: color .19s ease-in;
+
+}
+
+.nav-links >li>a:hover{
+    color: var(--primary);
+}
+
+.nav-btn > button{
+    color: var(--white);
+    background-color: var(--primary);
+    
+    padding: 16px 32px;
+    border-radius: var(--radius-sm);
+    transition: background .2s ease-in;
+}
+
+button:hover{
+    background-color:#388e3b ;
+    cursor: pointer;
+    
+}
