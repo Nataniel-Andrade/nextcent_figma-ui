@@ -72,7 +72,7 @@ button:hover{
 }
 
 .hero-section{
-    height: 65dvh;
+    height: 70dvh;
     background-color: var(--section-surface);
     display: flex;
 }
@@ -116,10 +116,11 @@ button:hover{
 }
 
 .hero-slider{
-    margin-top: 10em;
-    height:10px;
+    margin-inline: auto;
+    margin-top: 5em;
     display: flex;
     gap: 10px;
+    grid-column: 1/5;
 }
 .hero-slider > span{
     padding: 5px;
@@ -130,4 +131,26 @@ button:hover{
 
 .hero-slider > .active{
     opacity: 100%;
+}
+
+.clients-section{
+    padding-top: 1.5rem;
+    /* background-color: red; */
+    height: 30dvh;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    line-height: 2rem;
+}
+
+.clients-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10em;
+    margin-top: 1rem;
+}
+
+.clients-logo .logo{
+    width: 2.5em;
 }
