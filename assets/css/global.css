@@ -25,7 +25,7 @@
     --primary: #4CAF4F;
    --secondary:#263238;
    --white:#fff;
-   --silver: #F5F7FA;
+   --silver: #f5f7fa;
    --tint-5:#E8F5E9;
    --shade-5:#103e13;
 
@@ -75,12 +75,8 @@ button{
 }
 
 .container{
-    min-width: 1240px;
+    width: 1240px;
     margin-inline: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
 }
 
 body{
@@ -88,17 +84,19 @@ body{
     width: 100%;
     background-color: var(--white);
     font-weight: var(--text-regular);
-    font-size:14px;
-    line-height: 20px;
+    font-size:16px;
+    line-height: 24px;
     overflow-x: hidden;
+    color: var(--text-color-secondary);
 }
 
 h1,h2,h3,h4{
     font-weight: var(--headline-wgh);
+    color: var(--text-color-main);
 }
 h1{
     font-size: 64px;
-    line-height: 1.18;
+    line-height: 1.1;
 }
 h2{
     font-size: 36px;

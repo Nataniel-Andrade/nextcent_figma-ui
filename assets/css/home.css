@@ -1,18 +1,24 @@
 @import url('global.css');
 
 header{
-    height: 58px;
+    height: 4.5rem;
     position: sticky;
     top: 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     z-index: 50;
     background-color:transparent;
     backdrop-filter: blur(6px);
     box-shadow: var(--shadow-md);
     
+    
 }
-
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .nexcent_logo{
     width: 150px;
     height: 24px;
@@ -26,6 +32,7 @@ header{
     justify-content: space-between;
     gap: 24px;
     font-weight: var(--text-medium);
+    color: var(--text-color-main);
     
 }
 
@@ -58,4 +65,69 @@ button:hover{
     background-color:#388e3b ;
     cursor: pointer;
     
+}
+
+.home{
+    /* display: flex; */
+}
+
+.hero-section{
+    height: 65dvh;
+    background-color: var(--section-surface);
+    display: flex;
+}
+
+.hero-content{
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: self-end;
+    align-items: center;
+}
+
+.hero-title >span{
+    color: var(--primary);
+}
+
+.hero-subtitle {   
+    padding-block: 1.1rem;
+}
+
+.hero-btn{
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 12px 32px;
+    border-radius: var(--radius-sm);
+    transition: transform .2s ease-in-out , background .2s ease-in;
+}
+
+.hero-btn:hover{
+    transform: translateY(-2px);
+}
+
+.hero-img > img{
+    width: 25em;
+    height: 25em;
+    transition: transform .2s ease-in-out;
+}
+
+.hero-img>img:hover{
+    cursor: pointer;
+}
+
+.hero-slider{
+    margin-top: 10em;
+    height:10px;
+    display: flex;
+    gap: 10px;
+}
+.hero-slider > span{
+    padding: 5px;
+    background-color: var(--primary);
+    border-radius: 50%;
+    opacity: 30%;
+}
+
+.hero-slider > .active{
+    opacity: 100%;
 }
