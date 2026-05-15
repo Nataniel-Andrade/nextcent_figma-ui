@@ -30,7 +30,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 24px;
+    gap: 2.5rem;
     font-weight: var(--text-medium);
     color: var(--text-color-main);
     
@@ -39,7 +39,7 @@ nav{
 .nav-links{
     display: flex;
     align-items: center;
-    gap: 17px;
+    gap: 2rem;
 }
 
 .nav-links > li >a{
@@ -72,7 +72,7 @@ button:hover{
 }
 
 .hero-section{
-    height: 70dvh;
+    height: 75dvh;
     background-color: var(--section-surface);
     display: flex;
 }
@@ -133,14 +133,16 @@ button:hover{
     opacity: 100%;
 }
 
+
 .clients-section{
     padding-top: 1.5rem;
-    /* background-color: red; */
-    height: 30dvh;
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-    line-height: 2rem;
+    height: 18dvh;
+}
+.client-title{
+    padding-bottom: .2em;
+}
+.client-content{
+    text-align: center;
 }
 
 .clients-logo{
@@ -153,4 +155,41 @@ button:hover{
 
 .clients-logo .logo{
     width: 2.5em;
+}
+
+.community-section{
+    padding-top: 1.5rem;
+    height: 43dvh;
+}
+
+.community-title, .community-text{
+    text-align: center;
+}
+.community-title{
+    margin: 0 auto;
+    max-width: 15em;
+    padding-bottom: .2em;
+}
+.community-cards{
+    margin-top: .5em;
+    padding: 1em 0;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    column-gap: 9em;
+}
+
+.community-cards > .card{
+    text-align: center;
+    padding: 17px 22px;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+}
+
+.cmt-card-icon{
+    background-color: var(--tint-5);
+    border-radius: 7px 4px 12px 4px;
+    padding: 15px 5px 4px 2px;
+}
+.cmt-card-title{
+    padding-block: .3em;
 }

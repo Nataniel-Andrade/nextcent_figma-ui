@@ -46,9 +46,9 @@
    --radius-lg:50px;
 
    /* shadow */
-   --shadow-sm: 0 0 6px #ABB3D1;
-   --shadow-md: 0 0 8px #ABB3D1;
-   --shadow-lg: 0 0 16px #ABB3D1;
+   --shadow-sm: 0 3px 6px #ABB3D1;
+   --shadow-md: 0 4px 8px #ABB3D1;
+   --shadow-lg: 0 8px 16px #ABB3D1;
 }
 
 
