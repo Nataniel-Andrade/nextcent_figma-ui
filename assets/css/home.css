@@ -67,10 +67,6 @@ button:hover{
     
 }
 
-.home{
-    /* display: flex; */
-}
-
 .hero-section{
     height: 70dvh;
     background-color: var(--section-surface);
