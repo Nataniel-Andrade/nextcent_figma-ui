@@ -1,0 +1,43 @@
+@import url('global.css');
+
+.counter{
+    font-weight: 700;
+}
+
+.customer-text{
+    font-weight: var(--text-medium);
+}
+
+.customer-about{
+    color: #89939E;
+}
+
+.service-section-content {
+    display: grid;
+    grid-template-columns:   repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    column-gap: 5rem;
+}
+
+.service-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-img img{
+    width: 30em;
+    height: 30em;
+}
+
+
+.service-title{
+    width: 15em;
+
+}
+.service-text{
+    width: 35em;
+    text-align: justify;
+    padding: 11px 0 22px;
+}
