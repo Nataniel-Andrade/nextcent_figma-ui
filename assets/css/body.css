@@ -99,3 +99,48 @@
     text-align: justify;
     padding: 11px 0 22px;
 }
+
+.customers-section{
+    margin-top: 33px;
+    background-color: var(--section-surface);
+}
+.customers-section_content{
+    padding-block: 22px;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.customer-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customer-img img{
+    height: 21em;
+}
+
+.customer-text{
+    padding-bottom:11px ;
+}
+
+.customer-content h4{
+    color: var(--primary);
+}
+.customer-about{
+    padding-bottom:22px ;
+}
+
+.all-customers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customer-link{
+    margin-bottom: 3px;
+}
+.customer-link h4{
+    font-size: 18px;
+}
