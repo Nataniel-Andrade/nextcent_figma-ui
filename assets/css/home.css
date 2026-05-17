@@ -65,10 +65,7 @@ nav{
 }
 
 
-button > span{
-    display: flex;
-    margin-left: .2em;
-}
+
 
 button:hover{
     background-color:#388e3b ;

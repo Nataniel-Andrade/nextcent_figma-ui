@@ -74,6 +74,11 @@ button{
     font-weight: var(--text-medium);
 }
 
+button > span{
+    display: flex;
+    margin-left: .2em;
+}
+
 .container{
     width: 1240px;
     margin-inline: auto;
@@ -121,4 +126,5 @@ h4{
 
 .btn:hover{
     transform: translateY(-2px);
+    cursor: pointer;
 }
