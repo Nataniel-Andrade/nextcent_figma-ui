@@ -1,5 +1,7 @@
 @import url('global.css');
 
+
+
 .counter{
     font-weight: 700;
 }
@@ -149,6 +151,20 @@
 
 .customer-link{
     margin-bottom: 3px;
+}
+
+.customer-h4{
+    display: flex;
+align-items: center;
+justify-content: center;
+    transition: all .2s ease-in-out;
+}
+
+.customer-h4:hover{
+    padding-inline: .2em;
+    background: rgba(0,0,0, 0.1);
+    border-radius: var(--radius-md);
+
 }
 .customer-link h4{
     font-size: 18px;
