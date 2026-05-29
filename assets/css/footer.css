@@ -4,7 +4,7 @@ footer{
     margin-top: 8rem;
 }
 .sale-section{
-    padding-block: 2em;
+    padding-block: 3em;
     background-color: var(--shade-5);
 }
 
@@ -15,6 +15,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 .sale-section-content h1{
     color: var(--silver);
@@ -22,5 +23,89 @@ footer{
 .sale-section-content button{
     display: flex;
     padding-inline: 25px;
-    margin-top: 15px;
+    margin-top: 25px;
+}
+
+.footer-info-section{
+    background-color: var(--footer-surface);
+    padding-block: 3em;
+}
+
+.footer-info-section_content{
+
+    color: var(--footer-text-color);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17rem;
+}
+
+.copyright{
+    padding-block: 1em;
+}
+
+.social-media-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}
+
+.social-media-link a {
+    color: var(--white);
+    border-radius: 9999px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 4px 12px;
+
+}
+
+.social-media-link a:hover {
+    color: var(--primary);
+}
+.footer-info-section_content h4{
+    color: var(--footer-text-color-title);
+    padding-bottom: 1em;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 5em;
+}
+
+.footer-link-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-link-section span{
+    display: flex;
+    flex-direction: column;
+    gap: .3em;
+}
+
+.footer-link-section span > a{
+    color: var(--silver);
+    transition: all .2s ease-in-out;
+
+}
+
+.footer-link-section span > a:hover{
+    color: var(--primary);
+    padding-left: .2em;
+
+}
+
+input{
+    all: unset;
+}
+
+.input-email{
+    padding: 6px 50px 6px 10px;
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--silver);
+    border-radius: var(--radius-md)
+    
+;
 }
